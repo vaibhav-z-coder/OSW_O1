@@ -1,17 +1,25 @@
+body{
+font-size: 100%;
+}
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     padding: 40px;
+    margin-top: -35px;;
     
 }
 section{
-    display: grid;
-    grid-template-columns: 7fr 5fr;
-    padding: 20px;
-    padding-right: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+   
+}
+.image_section{
+margin-right: 200px;
 }
 .one{
-    padding: 20px;
+    padding: 10px;
     margin-left: 122px;
 }
 .images{
@@ -20,20 +28,23 @@ section{
     justify-content: space-around;
 }
 main{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr ;
+
+    display: flex;
+    gap: 40px;
+   align-items: center;
     padding: 40px;
-    margin-left: 30px; 
+    margin-left: 90px; 
   
     
 }
 .mainn{
-    border: 1px solid black;
-    width:300px;
-    padding: 20px;
-    padding-left: 70px;
+    border: 1px solid rgb(252, 202, 4);
+    width:270px;
+    height: 220px;
+    padding: 24px;
+    padding-left: 60px;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px rgb(97, 80, 78);
+    box-shadow: 3px 5px 12px rgba(146, 139, 138, 0.948);
 
 }
 .boxx{
@@ -42,10 +53,45 @@ main{
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
+    
     color: rgba(128, 128, 128, 0.928);
     
 }
 .one>p{
 font-size: 20px;
 color: rgba(95, 94, 94, 0.858);
+}
+::placeholder{
+font-size: 17px;
+  font-style: oblique;
+}
+.headerdiv{
+display: flex;
+justify-content: space-between;
+padding-left: 122px;
+font-size:14px;
+color: rgb(33, 30, 30);
+}
+.images{
+padding-right: 192px;
+}
+.box{
+    margin-right: 133px;
+}
+
+.card_title{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(8, 5, 5, 0.762);
+    padding-left: 10px;
+}
+.dsa{
+color: rgb(174, 26, 50);
+
+}
+.dsa:hover{
+font-weight: bolder;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
